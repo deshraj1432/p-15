@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #0E72C7;
+    padding: 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a.book-now {
+    background-color: #F04F23;
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
+  
+  .hero {
+    height: 70vh;
+    width: 100vw;
+    background-image: url(./daven_txt2image_67389995e1cc1.png);
+    background-size: cover;
+    background-position: center;
+    color:black;
+    padding: 100px 20px;
+
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 200px;
+
+  }
+  
+  .hero p {
+    font-size: 24px;
+  }
+  
+  form {
+    background-color: rgba(31, 83, 84, 0.8);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 350px;
+  }
+  
+  .form-group {
+    margin: 10px;
+    text-align: left;
+    width: 20 ;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    /* margin-top: 100px; */
+  }
+  
+  .form-group input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  .search-now {
+    background-color: #F04F23;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+  }
